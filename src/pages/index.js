@@ -139,6 +139,7 @@ const IndexPage = () => {
         Input {
           name
           href
+          description
         }
         Link {
           name

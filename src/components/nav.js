@@ -34,19 +34,19 @@ const Nav = () => {
     return (
         <Box>
             <List
-                display="flex"
-                flexDirection="row"
-                justifyContent="flex-end"
-                >
+            display="flex"
+            flexDirection="row"
+            justifyContent="flex-end"
+            >
                     {navItems.map(item => (
                         <PseudoBox
-                            as="li"
-                            onClick={() => scrollTo(item.a)}
-                            onKeyDown={() => scrollTo(item.a)}
-                            p="3"
-                            cursor="pointer"
-                            fontSize="med"
-                            _hover={{ color: "teal.600" }}
+                        as="li"
+                        onClick={() => scrollTo(item.a)}
+                        onKeyDown={() => scrollTo(item.a)}
+                        p="3"
+                        cursor="pointer"
+                        fontSize="med"
+                        _hover={{ color: "teal.600" }}
                         >
                             {item.name}
                         </PseudoBox>

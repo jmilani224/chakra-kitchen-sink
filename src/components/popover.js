@@ -7,14 +7,20 @@ import {
     PopoverBody,
     PopoverArrow,
     Link,
-    Icon
+    Icon,
+    Box
   } from "@chakra-ui/core";
 
 const ConsolidatedPopover = ({ children, name, description, href }) => {
     return (
-        <Popover trigger="hover">
+        <Popover
+        trigger="hover">
         <PopoverTrigger>
-            {children}
+            <Box
+            m="4"
+            >
+              {children}
+            </Box>
         </PopoverTrigger>
         <PopoverContent zIndex={4}>
           <PopoverArrow />
@@ -29,7 +35,7 @@ const ConsolidatedPopover = ({ children, name, description, href }) => {
                 {name}<Icon name="external-link" mx="1" mb="1" />
               </Link>
           </PopoverHeader>
-          <PopoverBody>{description}</PopoverBody>
+          <PopoverBody dangerouslySetInnerHTML={{ __html: description }}></PopoverBody>
         </PopoverContent>
       </Popover>
     )

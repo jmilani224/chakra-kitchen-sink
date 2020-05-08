@@ -11,20 +11,20 @@ const Main = () => {
         >
             
                 <Heading
-                    as="h1"
-                    size="2xl"
-                    py="6"
+                as="h1"
+                size="2xl"
+                py="6"
                 >
                     Chakra UI
                 </Heading>
           
                 <Heading
-                    as="h2"
-                    size="xl"
-                    pb="2"
-                    color="gray.500"
+                as="h2"
+                size="xl"
+                pb="2"
+                color="gray.500"
                 >
-                    Kitchen Sink Component Overview
+                    "Kitchen Sink" Component Overview
                 </Heading>
 
            
@@ -33,7 +33,8 @@ const Main = () => {
                     w="50vw"
                     textAlign="center"
                 >
-                    Every Chakra UI component is represented on this page. Hover over them for more info and a link to the documentation.</Text>
+                    Every Chakra UI component is represented on this page. Hover over them for more info and a link to the documentation.
+                </Text>
 
         </Flex>
     )

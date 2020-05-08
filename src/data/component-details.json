@@ -17,7 +17,7 @@
     "AspectRatioBox": {
         "name": "AspectRatioBox",
         "href": "https://chakra-ui.com/aspectratiobox",
-        "description": "AspectRatioBox component is used to embed responsive videos and maps, etc. It\nuses a very common\n<a href=\"https://css-tricks.com/aspect-ratio-boxes/\" class=\"css-1uwt1gb\"><strong>padding hack</strong></a> to achieve this."
+        "description": "AspectRatioBox component is used to embed responsive videos and maps, etc. It uses a very common\n<a href=\"https://css-tricks.com/aspect-ratio-boxes/\" class=\"css-1uwt1gb\"><strong>padding hack</strong></a> to achieve this."
     },
     "Avatar": {
         "name": "Avatar",
@@ -42,12 +42,12 @@
     "Button": {
         "name": "Button",
         "href": "https://chakra-ui.com/button",
-        "description": ""
+        "description": "Button component is used to trigger an action or event, such as submitting a form, opening a\n<a href=\"https://chakra-ui.com/modal\">Dialog</a>, canceling an action, or performing a delete operation."
     },
     "Checkbox": {
         "name": "Checkbox",
         "href": "https://chakra-ui.com/checkbox",
-        "description": ""
+        "description": "Checkbox component is used in forms when a user needs to select multiple values from several options.<br /><br /> Native HTML checkboxes are 100% accessible by default, so we used a <a href='https://dev.to/lkopacz/create-custom-keyboard-accessible-checkboxes-2036'>very common CSS technique</a> to style the checkboxes. <br /><br /> The Checkbox component composes <a href='/controlbox' >ControlBox</a>, a component we created to make it easy to style an element based on sibling inputs.</p>"
     },
     "CircularProgress": {
         "name": "CircularProgress",
@@ -72,7 +72,7 @@
     "ControlBox": {
         "name": "ControlBox",
         "href": "https://chakra-ui.com/controlbox",
-        "description": ""
+        "description": "ControlBox provides style props to change it's styles based on a sibling <code>checkbox</code> or <code>radio</code> input. It relies on a <a href='https://dev.to/lkopacz/create-custom-keyboard-accessible-checkboxes-2036'>common CSS technique</a> for styling custom controls."
     },
     "Divider": {
         "name": "Divider",
@@ -87,7 +87,7 @@
     "Editable": {
         "name": "Editable",
         "href": "https://chakra-ui.com/editable",
-        "description": ""
+        "description": "EditableText is used for inline renaming of some text. It appears as normal UI text but transforms into a text input field when the user clicks or focuses on it. <br /><br />The text input inherits all font styling from its parent, to make the edit and read view transition seamless."
     },
     "Flex": {
         "name": "Flex",
@@ -97,7 +97,7 @@
     "FormControl": {
         "name": "FormControl",
         "href": "https://chakra-ui.com/formcontrol",
-        "description": ""
+        "description": "FormControl provides context such as <code>isInvalid</code>, <code>isDisabled</code>, and <code>isRequired</code> to form elements. This context is used by the following components:<br /><br />It follows the <a href='https://www.w3.org/WAI/tutorials/forms/'>WAI specifications</a> for forms."
     },
     "Grid": {
         "name": "Grid",
@@ -127,7 +127,7 @@
     "Input": {
         "name": "Input",
         "href": "https://chakra-ui.com/input",
-        "description": "null"
+        "description": "Input component is a component that is used to get user input in a text field. It is usually used together with a <a href='https://chakra-ui.com/formcontrol'</a> to provide an accessible label, validation messages, etc."
     },
     "Link": {
         "name": "Link",
@@ -142,7 +142,7 @@
     "Menu": {
         "name": "Menu",
         "href": "https://chakra-ui.com/menu",
-        "description": "null"
+        "description": "An accessible dropdown menu for the common dropdown menu button design pattern. Menu uses roving tabIndex for focus management."
     },
     "Modal": {
         "name": "Modal",
@@ -152,7 +152,7 @@
     "NumberInput": {
         "name": "NumberInput",
         "href": "https://chakra-ui.com/numberinput",
-        "description": "null"
+        "description": "The NumberInput component is similar to the <a href='https://chakra-ui.com/input'>Input</a>, but it has controls for incrementing or decrementing numeric values.<br /><br />It follows the <a href='https://www.w3.org/TR/wai-aria-practices-1.1/#spinbutton'>WAI-ARIA authoring practices</a> for the Spinbutton widget."
     },
     "Popover": {
         "name": "Popover",

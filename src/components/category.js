@@ -1,20 +1,27 @@
 import React from 'react'
-import { Box, Heading, Divider } from '@chakra-ui/core'
+import { Box, Heading, Divider, Flex } from '@chakra-ui/core'
 
 const Category = ({ children, name }) => {
     return (
         <>
-        <Box>
+        <Box pr="6">
             <Heading
-             size="lg"
-             mx="6"
+             size="xl"
+             my="8"
+             textAlign="center"
             >
                 {name}
             </Heading>
-            {children}
+            <Flex
+            justifyContent="space-evenly"
+            alignItems="center"
+            flexWrap="wrap"
+            >
+                {children}
+            </Flex>
         </Box>
 
-        <Divider />
+        <Divider my="6"/>
         </>
     )
 }
