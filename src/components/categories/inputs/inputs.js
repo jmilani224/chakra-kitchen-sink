@@ -52,10 +52,8 @@ export const Inputs = ({ data }) => {
             description={data.ControlBox.description}
             >
                 <label>
-                    {/* This is the sibling input, it's visually hidden */}
                     <VisuallyHidden as="input" type="checkbox" defaultChecked />
 
-                    {/* This is the control box with a check icon as children */}
                     <ControlBox
                         borderWidth="1px"
                         size="24px"
@@ -66,7 +64,6 @@ export const Inputs = ({ data }) => {
                         <Icon name="check" size="16px" />
                     </ControlBox>
 
-                    {/* You can pass additional text */}
                     <Box as="span" verticalAlign="top" ml={3}>
                         ControlBox
                     </Box>

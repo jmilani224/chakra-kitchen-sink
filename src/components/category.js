@@ -6,6 +6,7 @@ const Category = ({ children, name }) => {
         <>
         <Box pr="6">
             <Heading
+             color="gray.800"
              size="xl"
              my="8"
              textAlign="center"

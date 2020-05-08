@@ -8,12 +8,13 @@ const Main = () => {
         justifyContent="center"
         alignItems="center"
         height="60vh"
-        >
-            
-                <Heading
+        >       
+
+               <Heading
                 as="h1"
                 size="2xl"
                 py="6"
+                color="gray.800"
                 >
                     Chakra UI
                 </Heading>
@@ -22,7 +23,7 @@ const Main = () => {
                 as="h2"
                 size="xl"
                 pb="2"
-                color="gray.500"
+                color="teal.500"
                 >
                     "Kitchen Sink" Component Overview
                 </Heading>
