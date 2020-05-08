@@ -1,21 +1,275 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Nav from '../components/nav.js'
+import Main from '../components/main.js'
+import Inputs from '../components/categories/inputs/inputs.js'
+import { Box } from '@chakra-ui/core'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    {
+      dataJson {
+        Accordion {
+          name
+          href
+          description
+        }
+        Alert {
+          name
+          href
+          description
+        }
+        AlertDialog {
+          name
+          href
+          description
+        }
+        AspectRatioBox {
+          name
+          href
+          description
+        }
+        Avatar {
+          name
+          href
+          description
+        }
+        Badge {
+          name
+          href
+          description
+        }
+        Box {
+          name
+          href
+          description
+        }
+        Breadcrumb {
+          name
+          href
+          description
+        }
+        Button {
+          name
+          href
+          description
+        }
+        Checkbox {
+          name
+          href
+          description
+        }
+        CircularProgress {
+          name
+          href
+          description
+        }
+        Code {
+          name
+          href
+          description
+        }
+        CloseButton {
+          name
+          href
+          description
+        }
+        Collapse {
+          name
+          href
+          description
+        }
+        ControlBox {
+          name
+          href
+          description
+        }
+        Divider {
+          name
+          href
+          description
+        }
+        Drawer {
+          name
+          href
+          description
+        }
+        Editable {
+          name
+          href
+          description
+        }
+        Flex {
+          name
+          href
+          description
+        }
+        FormControl {
+          name
+          href
+          description
+        }
+        Grid {
+          name
+          href
+          description
+        }
+        Heading {
+          name
+          href
+          description
+        }
+        Icon {
+          name
+          href
+          description
+        }
+        IconButton {
+          name
+          href
+          description
+        }
+        Image {
+          name
+          href
+          description
+        }
+        Input {
+          name
+          href
+        }
+        Link {
+          name
+          href
+          description
+        }
+        List {
+          name
+          href
+          description
+        }
+        Tooltip {
+          name
+          href
+          description
+        }
+        Toast {
+          name
+          href
+          description
+        }
+        Textarea {
+          name
+          href
+          description
+        }
+        Text {
+          name
+          href
+          description
+        }
+        Tag {
+          name
+          href
+          description
+        }
+        Tabs {
+          name
+          href
+          description
+        }
+        Switch {
+          name
+          href
+          description
+        }
+        Stat {
+          name
+          href
+          description
+        }
+        Stack {
+          name
+          href
+          description
+        }
+        Spinner {
+          name
+          href
+          description
+        }
+        Slider {
+          name
+          href
+          description
+        }
+        Skeleton {
+          name
+          href
+          description
+        }
+        SimpleGrid {
+          name
+          href
+          description
+        }
+        Select {
+          name
+          href
+          description
+        }
+        Radio {
+          name
+          href
+          description
+        }
+        PseudoBox {
+          name
+          href
+          description
+        }
+        Progress {
+          name
+          href
+          description
+        }
+        Popover {
+          name
+          href
+          description
+        }
+        NumberInput {
+          name
+          href
+          description
+        }
+        Modal {
+          name
+          href
+          description
+        }
+        Menu {
+          name
+          href
+          description
+        }
+      }
+    }
+  `)
+  const dataProp = data.dataJson
+  return (
+            <Box px="8">
+              <Nav />
+
+              <Main />
+
+              <Inputs data={dataProp} id="inputs" />
+              
+            </Box>
+            
+          )        
+}
 
 export default IndexPage

@@ -1,0 +1,247 @@
+{
+    "Accordion": {
+        "name": "Accordion",
+        "href": "https://chakra-ui.com/accordion",
+        "description": "Accordions display a list of high-level options that can expand/collapse to reveal more information."
+    },
+    "Alert": {
+        "name": "Alert",
+        "href": "https://chakra-ui.com/alert",
+        "description": "Alerts are used to communicate a state that affects a system, feature or page."
+    },
+    "AlertDialog": {
+        "name": "AlertDialog",
+        "href": "https://chakra-ui.com/alertdialog",
+        "description": "AlertDialog component is used interrupt the user with a mandatory confirmation or action."
+    },
+    "AspectRatioBox": {
+        "name": "AspectRatioBox",
+        "href": "https://chakra-ui.com/aspectratiobox",
+        "description": "AspectRatioBox component is used to embed responsive videos and maps, etc. It\nuses a very common\n<a href=\"https://css-tricks.com/aspect-ratio-boxes/\" class=\"css-1uwt1gb\"><strong>padding hack</strong></a> to achieve this."
+    },
+    "Avatar": {
+        "name": "Avatar",
+        "href": "https://chakra-ui.com/avatar",
+        "description": "null"
+    },
+    "Badge": {
+        "name": "Badge",
+        "href": "https://chakra-ui.com/badge",
+        "description": "null"
+    },
+    "Box": {
+        "name": "Box",
+        "href": "https://chakra-ui.com/box",
+        "description": "null"
+    },
+    "Breadcrumb": {
+        "name": "Breadcrumb",
+        "href": "https://chakra-ui.com/breadcrumb",
+        "description": ""
+    },
+    "Button": {
+        "name": "Button",
+        "href": "https://chakra-ui.com/button",
+        "description": ""
+    },
+    "Checkbox": {
+        "name": "Checkbox",
+        "href": "https://chakra-ui.com/checkbox",
+        "description": ""
+    },
+    "CircularProgress": {
+        "name": "CircularProgress",
+        "href": "https://chakra-ui.com/circularprogress",
+        "description": ""
+    },
+    "CloseButton": {
+        "name": "CloseButton",
+        "href": "https://chakra-ui.com/closebutton",
+        "description": ""
+    },
+    "Code": {
+        "name": "Code",
+        "href": "https://chakra-ui.com/code",
+        "description": ""
+    },
+    "Collapse": {
+        "name": "Collapse",
+        "href": "https://chakra-ui.com/collapse",
+        "description": ""
+    },
+    "ControlBox": {
+        "name": "ControlBox",
+        "href": "https://chakra-ui.com/controlbox",
+        "description": ""
+    },
+    "Divider": {
+        "name": "Divider",
+        "href": "https://chakra-ui.com/divider",
+        "description": ""
+    },
+    "Drawer": {
+        "name": "Drawer",
+        "href": "https://chakra-ui.com/drawer",
+        "description": ""
+    },
+    "Editable": {
+        "name": "Editable",
+        "href": "https://chakra-ui.com/editable",
+        "description": ""
+    },
+    "Flex": {
+        "name": "Flex",
+        "href": "https://chakra-ui.com/flex",
+        "description": ""
+    },
+    "FormControl": {
+        "name": "FormControl",
+        "href": "https://chakra-ui.com/formcontrol",
+        "description": ""
+    },
+    "Grid": {
+        "name": "Grid",
+        "href": "https://chakra-ui.com/grid",
+        "description": ""
+    },
+    "Heading": {
+        "name": "Heading",
+        "href": "https://chakra-ui.com/heading",
+        "description": "Headings are used for rendering headlines. Heading composes Box so you can use all the style props and add responsive styles as well. It renders an <h2> tag by default."
+    },
+    "Icon": {
+        "name": "Icon",
+        "href": "https://chakra-ui.com/icon",
+        "description": ""
+    },
+    "IconButton": {
+        "name": "IconButton",
+        "href": "https://chakra-ui.com/iconbutton",
+        "description": ""
+    },
+    "Image": {
+        "name": "Image",
+        "href": "https://chakra-ui.com/image",
+        "description": ""
+    },
+    "Input": {
+        "name": "Input",
+        "href": "https://chakra-ui.com/input",
+        "description": "null"
+    },
+    "Link": {
+        "name": "Link",
+        "href": "https://chakra-ui.com/link",
+        "description": "Links are accessible elements used primarily for navigation. This component is styled to resemble a hyperlink and semantically renders an <a>."
+    },
+    "List": {
+        "name": "List",
+        "href": "https://chakra-ui.com/list",
+        "description": "null"
+    },
+    "Menu": {
+        "name": "Menu",
+        "href": "https://chakra-ui.com/menu",
+        "description": "null"
+    },
+    "Modal": {
+        "name": "Modal",
+        "href": "https://chakra-ui.com/modal",
+        "description": "null"
+    },
+    "NumberInput": {
+        "name": "NumberInput",
+        "href": "https://chakra-ui.com/numberinput",
+        "description": "null"
+    },
+    "Popover": {
+        "name": "Popover",
+        "href": "https://chakra-ui.com/popover",
+        "description": "null"
+    },
+    "Progress": {
+        "name": "Progress",
+        "href": "https://chakra-ui.com/progress",
+        "description": "null"
+    },
+    "PseudoBox": {
+        "name": "PseudoBox",
+        "href": "https://chakra-ui.com/pseudobox",
+        "description": "null"
+    },
+    "Radio": {
+        "name": "Radio",
+        "href": "https://chakra-ui.com/radio",
+        "description": "null"
+    },
+    "Select": {
+        "name": "Select",
+        "href": "https://chakra-ui.com/select",
+        "description": "null"
+    },
+    "SimpleGrid": {
+        "name": "SimpleGrid",
+        "href": "https://chakra-ui.com/simplegrid",
+        "description": "null"
+    },
+    "Skeleton": {
+        "name": "Skeleton",
+        "href": "https://chakra-ui.com/skeleton",
+        "description": "null"
+    },
+    "Slider": {
+        "name": "Slider",
+        "href": "https://chakra-ui.com/slider",
+        "description": "null"
+    },
+    "Spinner": {
+        "name": "Spinner",
+        "href": "https://chakra-ui.com/spinner",
+        "description": "null"
+    },
+    "Stack": {
+        "name": "Stack",
+        "href": "https://chakra-ui.com/stack",
+        "description": "null"
+    },
+    "Stat": {
+        "name": "Stat",
+        "href": "https://chakra-ui.com/stat",
+        "description": "null"
+    },
+    "Switch": {
+        "name": "Switch",
+        "href": "https://chakra-ui.com/switch",
+        "description": "null"
+    },
+    "Tabs": {
+        "name": "Tabs",
+        "href": "https://chakra-ui.com/tabs",
+        "description": "null"
+    },
+    "Tag": {
+        "name": "Tag",
+        "href": "https://chakra-ui.com/tag",
+        "description": "null"
+    },
+    "Text": {
+        "name": "Text",
+        "href": "https://chakra-ui.com/text",
+        "description": "Text is the used to render text and paragraphs within an interface. It renders a <p> tag by default."
+    },
+    "Textarea": {
+        "name": "Textarea",
+        "href": "https://chakra-ui.com/textarea",
+        "description": "null"
+    },
+    "Toast": {
+        "name": "Toast",
+        "href": "https://chakra-ui.com/toast",
+        "description": "null"
+    },
+    "Tooltip": {
+        "name": "Tooltip",
+        "href": "https://chakra-ui.com/tooltip",
+        "description": "null"
+    }
+  }
