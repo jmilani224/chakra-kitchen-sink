@@ -29,9 +29,9 @@ const Main = () => {
 
            
                 <Text
-                    m="4"
-                    w="50vw"
-                    textAlign="center"
+                m="4"
+                w="50vw"
+                textAlign="center"
                 >
                     Every Chakra UI component is represented on this page. Hover over them for more info and a link to the documentation.
                 </Text>

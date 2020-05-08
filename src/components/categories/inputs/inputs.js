@@ -110,6 +110,7 @@ export const Inputs = ({ data }) => {
             name={data.Menu.name}
             href={data.Menu.href}
             description={data.Menu.description}
+            placement="bottom"
             >
                 <Menu>
                     <MenuButton as={Button} rightIcon="chevron-down">
