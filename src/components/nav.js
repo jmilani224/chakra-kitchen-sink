@@ -46,7 +46,7 @@ const Nav = () => {
                         p="3"
                         cursor="pointer"
                         fontSize="med"
-                        _hover={{ color: "teal.600" }}
+                        _hover={{ color: "teal.500" }}
                         >
                             {item.name}
                         </PseudoBox>

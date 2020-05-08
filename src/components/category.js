@@ -8,7 +8,7 @@ const Category = ({ children, name }) => {
             <Heading
              color="gray.800"
              size="xl"
-             my="8"
+             my="2"
              textAlign="center"
             >
                 {name}

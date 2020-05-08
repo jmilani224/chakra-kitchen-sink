@@ -31,7 +31,7 @@ const ConsolidatedPopover = ({ children, name, description, href, placement }) =
                 href={href}
                 target="blank"
                 fontWeight="600"
-                color="teal.600"
+                color="teal.500"
                 isExternal
                 >
                 {name}<Icon name="external-link" mx="1" mb="1" />
