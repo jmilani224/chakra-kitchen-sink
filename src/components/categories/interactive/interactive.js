@@ -84,7 +84,7 @@ const Interactive = ({ data }) => {
                 <Alert status="error">
                 <AlertIcon />
                     <AlertTitle mr={2}>Alert!</AlertTitle>
-                    <AlertDescription>Your Chakra experience may be degraded.</AlertDescription>
+                    <AlertDescription>Something has happened.</AlertDescription>
                     <CloseButton position="absolute" right="8px" top="8px" />
                 </Alert>
             </ConsolidatedPopover>
