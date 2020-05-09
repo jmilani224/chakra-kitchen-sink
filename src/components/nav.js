@@ -10,7 +10,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 const navItems = [
     {
         name: "Inputs",
-        a: "#input"
+        a: "#inputs"
     },
     {
         name: "Interactive",

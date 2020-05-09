@@ -11,7 +11,7 @@ import {
     Box
   } from "@chakra-ui/core";
 
-const ConsolidatedPopover = ({ children, name, description, href, placement }) => {
+const ConsolidatedPopover = ({ children, name, description, href, placement, w }) => {
     return (
         <Popover
         trigger="hover"
@@ -21,6 +21,7 @@ const ConsolidatedPopover = ({ children, name, description, href, placement }) =
             <Box
             m="10"
             minW="10em"
+            w={w}
             >
               {children}
             </Box>

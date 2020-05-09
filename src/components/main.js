@@ -7,7 +7,7 @@ const Main = () => {
         direction="column"
         justifyContent="center"
         alignItems="center"
-        height="60vh"
+        height="50vh"
         >       
 
                <Heading

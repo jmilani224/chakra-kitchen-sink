@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Nav from '../components/nav.js'
 import Main from '../components/main.js'
 import Inputs from '../components/categories/inputs/inputs.js'
+import Interactive from '../components/categories/interactive/interactive.js'
 import { Box } from '@chakra-ui/core'
 
 
@@ -266,7 +267,9 @@ const IndexPage = () => {
 
               <Main />
 
-              <Inputs data={dataProp} id="inputs" />
+              <Inputs data={dataProp} />
+
+              <Interactive data={dataProp} />
               
             </Box>
             

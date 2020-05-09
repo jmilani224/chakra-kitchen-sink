@@ -57,7 +57,7 @@
     "CloseButton": {
         "name": "CloseButton",
         "href": "https://chakra-ui.com/closebutton",
-        "description": ""
+        "description": "CloseButton is essentially a button with a close icon. It is used to handle the close functionality in feedback and overlay components like <a href='https://chakra-ui.com/alert'>Alerts</a>, <a href='https://chakra-ui.com/toast>Toasts</a>, <a href='https://chakra-ui.com/drawer' >Drawers</a> and <a href='https://chakra-ui.com/modal'>Modals</a>."
     },
     "Code": {
         "name": "Code",
@@ -67,7 +67,7 @@
     "Collapse": {
         "name": "Collapse",
         "href": "https://chakra-ui.com/collapse",
-        "description": ""
+        "description": "The Collapse component is used to create regions of content that can expand/collapse with a simple animation. It helps to hide content that's not immediately relevant to the user. <br /><br /><p>This component leverages <a href='https://github.com/Stanko/react-animate-height'>react-animate-height</a>, and composes the <a href='https://chakra-ui.com/box'>Box</a> component.</p>"
     },
     "ControlBox": {
         "name": "ControlBox",

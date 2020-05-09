@@ -39,7 +39,7 @@ import {
 
 export const Inputs = ({ data }) => {
     return (
-        <Category name="Inputs">
+        <Category name="Inputs" id="inputs">
             <ConsolidatedPopover
             name={data.Button.name}
             href={data.Button.href}
