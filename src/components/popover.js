@@ -19,7 +19,8 @@ const ConsolidatedPopover = ({ children, name, description, href, placement }) =
         >
         <PopoverTrigger>
             <Box
-            m="12"
+            m="10"
+            minW="10em"
             >
               {children}
             </Box>

@@ -24,6 +24,7 @@ const Main = () => {
                 size="xl"
                 pb="2"
                 color="teal.500"
+                textAlign="center"
                 >
                     "Kitchen Sink" Component Overview
                 </Heading>

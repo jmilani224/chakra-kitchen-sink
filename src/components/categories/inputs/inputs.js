@@ -25,6 +25,16 @@ import {
     NumberInputStepper,
     NumberIncrementStepper,
     NumberDecrementStepper,
+    Radio,
+    RadioGroup,
+    Select,
+    Slider,
+    SliderTrack,
+    SliderFilledTrack,
+    SliderThumb,
+    Switch,
+    Flex,
+    Textarea
 } from '@chakra-ui/core';
 
 export const Inputs = ({ data }) => {
@@ -107,7 +117,7 @@ export const Inputs = ({ data }) => {
             name={data.Menu.name}
             href={data.Menu.href}
             description={data.Menu.description}
-            placement="bottom"
+            placement="top"
             >
                 <Menu>
                     <MenuButton as={Button} rightIcon="chevron-down">
@@ -137,6 +147,61 @@ export const Inputs = ({ data }) => {
                         <NumberDecrementStepper />
                     </NumberInputStepper>
                 </NumberInput>
+            </ConsolidatedPopover>
+
+            <ConsolidatedPopover
+            name={data.Radio.name}
+            href={data.Radio.href}
+            description={data.Radio.description}
+            >
+                <RadioGroup>
+                    <Radio value="1">First</Radio>
+                    <Radio value="2">Second</Radio>
+                    <Radio value="3">Third</Radio>
+                </RadioGroup>
+            </ConsolidatedPopover>
+
+            <ConsolidatedPopover
+            name={data.Select.name}
+            href={data.Select.href}
+            description={data.Select.description}
+            >
+                <Select placeholder="Select option">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </Select>
+            </ConsolidatedPopover>
+
+            <ConsolidatedPopover
+            name={data.Slider.name}
+            href={data.Slider.href}
+            description={data.Slider.description}
+            >
+                <Slider defaultValue={30}>
+                    <SliderTrack />
+                    <SliderFilledTrack />
+                    <SliderThumb />
+                </Slider>
+            </ConsolidatedPopover>
+
+            <ConsolidatedPopover
+            name={data.Switch.name}
+            href={data.Switch.href}
+            description={data.Switch.description}
+            >
+                <Flex justify="center" align="center">
+                    <FormLabel htmlFor="demo-switch">Switch</FormLabel>
+                    <Switch id="demo-switch" />
+                </Flex>
+            </ConsolidatedPopover>
+
+            <ConsolidatedPopover
+            name={data.Textarea.name}
+            href={data.Textarea.href}
+            description={data.Textarea.description}
+            >
+                <Textarea placeholder="Textarea" />
             </ConsolidatedPopover>
 
         </Category>

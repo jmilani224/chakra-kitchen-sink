@@ -172,12 +172,12 @@
     "Radio": {
         "name": "Radio",
         "href": "https://chakra-ui.com/radio",
-        "description": "null"
+        "description": "Radios are used when only one choice may be selected in a series of options. <br /><br />Native HTML radios are 100% accessible by default, so we used a <a href='https://dev.to/lkopacz/create-custom-keyboard-accessible-radio-buttons-22eh' very common CSS technique</a> to style the radio."
     },
     "Select": {
         "name": "Select",
         "href": "https://chakra-ui.com/select",
-        "description": "null"
+        "description": "Select component is a component that allows users pick a value from predefined options. Ideally, it should be used when there are more than 5 options, otherwise you might consider using a radio group instead."
     },
     "SimpleGrid": {
         "name": "SimpleGrid",
@@ -192,7 +192,7 @@
     "Slider": {
         "name": "Slider",
         "href": "https://chakra-ui.com/slider",
-        "description": "null"
+        "description": "The Slider is used to allow users to make selections from a range of values.<br /><br />Sliders reflect a range of values along a bar, from which users may select a single value. They are ideal for adjusting settings such as volume, brightness, or applying image filters."
     },
     "Spinner": {
         "name": "Spinner",
@@ -212,7 +212,7 @@
     "Switch": {
         "name": "Switch",
         "href": "https://chakra-ui.com/switch",
-        "description": "null"
+        "description": "The Switch component is used as an alternative for the <a href='https://chakra-ui.com/checkbox'>Checkbox</a> component, switch between enabled or disabled states.<br /> <br />Switch must always be accompanied by a label, and follows the same keyboard workflow as a checkbox."
     },
     "Tabs": {
         "name": "Tabs",
@@ -232,7 +232,7 @@
     "Textarea": {
         "name": "Textarea",
         "href": "https://chakra-ui.com/textarea",
-        "description": "null"
+        "description": "The Textarea component allows you to easily create multi-line text inputs."
     },
     "Toast": {
         "name": "Toast",
