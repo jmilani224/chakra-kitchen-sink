@@ -25,8 +25,8 @@ const navItems = [
         a: "#text"
     },
     {
-        name: "UI",
-        a: "#ui"
+        name: "UI Elements",
+        a: "#uielements"
     },
 ]
 
