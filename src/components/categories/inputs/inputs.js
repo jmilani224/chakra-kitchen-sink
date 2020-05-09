@@ -177,6 +177,7 @@ export const Inputs = ({ data }) => {
             name={data.Slider.name}
             href={data.Slider.href}
             description={data.Slider.description}
+            minW="15em"
             >
                 <Slider defaultValue={30}>
                     <SliderTrack />
