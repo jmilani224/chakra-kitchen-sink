@@ -26,7 +26,7 @@ const Main = () => {
                 color="teal.500"
                 textAlign="center"
                 >
-                    "Kitchen Sink" Component Overview
+                    "Kitchen Sink" Component Demo
                 </Heading>
 
            

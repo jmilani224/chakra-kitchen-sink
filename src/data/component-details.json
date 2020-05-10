@@ -82,7 +82,7 @@
     "Drawer": {
         "name": "Drawer",
         "href": "https://chakra-ui.com/drawer",
-        "description": ""
+        "description": "The Drawer component is a panel that slides out from the edge of the screen. It can be useful when you need users to complete a task or view some details without leaving the current page."
     },
     "Editable": {
         "name": "Editable",
@@ -117,7 +117,7 @@
     "IconButton": {
         "name": "IconButton",
         "href": "https://chakra-ui.com/iconbutton",
-        "description": ""
+        "description": "IconButton composes the <code>Button</code> component, except that it renders only an icon."
     },
     "Image": {
         "name": "Image",
@@ -132,7 +132,7 @@
     "Link": {
         "name": "Link",
         "href": "https://chakra-ui.com/link",
-        "description": "Links are accessible elements used primarily for navigation. This component is styled to resemble a hyperlink and semantically renders an <a>."
+        "description": "Links are accessible elements used primarily for navigation. This component is styled to resemble a hyperlink and semantically renders an <code>&lt;a&gt;</code>."
     },
     "List": {
         "name": "List",
@@ -145,9 +145,9 @@
         "description": "An accessible dropdown menu for the common dropdown menu button design pattern. Menu uses roving tabIndex for focus management."
     },
     "Modal": {
-        "name": "Modal",
+        "name": "Modal (Dialog)",
         "href": "https://chakra-ui.com/modal",
-        "description": "null"
+        "description": "A dialog is a window overlaid on either the primary window or another dialog window. Contents behind a modal dialog are <strong>inert</strong> meaning that users cannot interact with content behind the dialog."
     },
     "NumberInput": {
         "name": "NumberInput",
@@ -157,7 +157,7 @@
     "Popover": {
         "name": "Popover",
         "href": "https://chakra-ui.com/popover",
-        "description": "null"
+        "description": "Popover is a non-modal dialog that floats around a trigger. It's used to display contextual information to the user, and should be paired with a clickable trigger element.<br /><br />Popover is built on top of the <a href='https://popper.js.org/'>Popper.js</a> library, and composes the <code>Popper</code> component."
     },
     "Progress": {
         "name": "Progress",
@@ -217,7 +217,7 @@
     "Tabs": {
         "name": "Tabs",
         "href": "https://chakra-ui.com/tabs",
-        "description": "null"
+        "description": "An accessible tabs component.<br /><br />The <code>Tab</code> and <code>TabPanel</code> elements are associated by their order in the tree. None of the components are empty wrappers, each is associated with a real DOM element in the document, giving you maximum control over styling and composition."
     },
     "Tag": {
         "name": "Tag",
@@ -237,11 +237,11 @@
     "Toast": {
         "name": "Toast",
         "href": "https://chakra-ui.com/toast",
-        "description": "null"
+        "description": "The toast is used to show alerts on top of an overlay. The toast will close itself when the close button is clicked, or after a timeout — the default is 5 seconds. The toast component is used to give feedback to users after an action has taken place."
     },
     "Tooltip": {
         "name": "Tooltip",
         "href": "https://chakra-ui.com/tooltip",
-        "description": "null"
+        "description": "A tooltip is a brief, informative message that appears when a user interacts with an element. Tooltips are usually initiated in one of two ways: through a mouse-hover gesture or through a keyboard-hover gesture."
     }
   }
