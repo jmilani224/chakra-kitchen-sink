@@ -269,7 +269,7 @@ const IndexPage = () => {
 
               <Inputs data={dataProp} />
 
-              <Interactive data={dataProp} />
+              <Interactive data={dataProp} id="interactive" />
               
             </Box>
             

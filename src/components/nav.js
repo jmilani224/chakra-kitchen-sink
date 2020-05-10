@@ -32,7 +32,9 @@ const navItems = [
 
 const Nav = () => {
     return (
-        <Box>
+        <Box
+        mt="4"
+        >
             <List
             display="flex"
             flexDirection="row"
