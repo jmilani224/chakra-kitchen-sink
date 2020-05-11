@@ -8,24 +8,27 @@ import {
     PopoverArrow,
     Link,
     Icon,
-    Box
+    Flex
   } from "@chakra-ui/core";
 
-const ConsolidatedPopover = ({ children, name, description, href, placement, w, minW, h }) => {
+const ConsolidatedPopover = ({ children, name, description, href, placement, w, minW, h, direction }) => {
     return (
         <Popover
         trigger="hover"
         placement={placement}
         >
         <PopoverTrigger>
-            <Box
-            m="10"
+            <Flex
+            m="12"
             minW={minW}
             w={w}
             h={h}
+            justify="center"
+            align="center"
+            flexDirection={direction}
             >
               {children}
-            </Box>
+            </Flex>
         </PopoverTrigger>
         <PopoverContent zIndex={4}>
           <PopoverArrow />

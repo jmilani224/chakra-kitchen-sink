@@ -5,6 +5,7 @@ import Nav from '../components/nav.js'
 import Main from '../components/main.js'
 import Inputs from '../components/categories/inputs/inputs.js'
 import Interactive from '../components/categories/interactive/interactive.js'
+import Layout from '../components/categories/layout/layout.js'
 import { Box } from '@chakra-ui/core'
 
 
@@ -267,9 +268,11 @@ const IndexPage = () => {
 
               <Main />
 
-              <Inputs data={dataProp} />
+              <Inputs data={dataProp} id="inputs" />
 
               <Interactive data={dataProp} id="interactive" />
+
+              <Layout data={dataProp} id="layout" />
               
             </Box>
             

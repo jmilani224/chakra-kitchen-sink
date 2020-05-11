@@ -15,8 +15,8 @@ const Category = ({ children, name, id }) => {
                 {name}
             </Heading>
             <Flex
-            justifyContent="center"
-            alignItems="center"
+            justify="center"
+            align="center"
             flexWrap="wrap"
             >
                 {children}

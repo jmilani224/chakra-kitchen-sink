@@ -221,6 +221,7 @@ const CollapseDemo = ({ data }) => {
         href={data.Collapse.href}
         description={data.Collapse.description}
         w="40vw"
+        direction="column"
         >
             <Button variantColor="blue" onClick={handleToggle}>
                     Collapse
@@ -382,32 +383,32 @@ const Interactive = ({ data }) => {
     
     return (
         <Category name="Interactive" id="interactive">
-            
-            <AccordionDemo data={data} />
-
-            <AlertDemo data={data} />
 
             <AlertDialogDemo data={data} />
-
-            <CloseButtonDemo data={data} />
-
-            <CollapseDemo data={data} />
             
             <DrawerDemo data={data}/>
-
-            <IconButtonDemo data={data} />
-
-            <LinkDemo data={data} />
 
             <ModalDemo data={data} />
 
             <PopoverDemo data={data} />
 
-            <TabsDemo data={data} />
-            
             <ToastDemo data={data} />
 
+            <IconButtonDemo data={data} />
+
+            <CollapseDemo data={data} />
+
+            <CloseButtonDemo data={data} />
+
+            <LinkDemo data={data} />
+
             <TooltipDemo data={data} />
+
+            <TabsDemo data={data} />
+            
+            <AlertDemo data={data} />
+
+            <AccordionDemo data={data} />
             
         </Category>
     )

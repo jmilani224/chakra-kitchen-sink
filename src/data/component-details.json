@@ -17,7 +17,7 @@
     "AspectRatioBox": {
         "name": "AspectRatioBox",
         "href": "https://chakra-ui.com/aspectratiobox",
-        "description": "AspectRatioBox component is used to embed responsive videos and maps, etc. It uses a very common\n<a href=\"https://css-tricks.com/aspect-ratio-boxes/\" class=\"css-1uwt1gb\"><strong>padding hack</strong></a> to achieve this."
+        "description": "AspectRatioBox component is used to embed responsive videos and maps, etc. It uses a very common <a href='https://css-tricks.com/aspect-ratio-boxes/'><strong>padding hack</strong></a> to achieve this."
     },
     "Avatar": {
         "name": "Avatar",
