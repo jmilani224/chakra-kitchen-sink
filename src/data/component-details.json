@@ -32,7 +32,7 @@
     "Box": {
         "name": "Box",
         "href": "https://chakra-ui.com/box",
-        "description": "null"
+        "description": "Box is the most abstract component on top of which all other Chakra UI components are built. By default, it renders a <code>div</code> element."
     },
     "Breadcrumb": {
         "name": "Breadcrumb",
@@ -77,7 +77,7 @@
     "Divider": {
         "name": "Divider",
         "href": "https://chakra-ui.com/divider",
-        "description": ""
+        "description": "Dividers are used to display a thin horizontal or vertical line.<br /><br />Divider composes <code>Box</code> so you can use all the style props and add responsive styles as well. It renders an <code>&lt;hr&gt;</code> tag by default."
     },
     "Drawer": {
         "name": "Drawer",
@@ -92,7 +92,7 @@
     "Flex": {
         "name": "Flex",
         "href": "https://chakra-ui.com/flex",
-        "description": ""
+        "description": "Flex is <a href='https://chakra-ui.com/box'>Box</a> with <code>display: flex</code> and comes with helpful style shorthand. It renders a <code>div</code> element."
     },
     "FormControl": {
         "name": "FormControl",
@@ -102,7 +102,7 @@
     "Grid": {
         "name": "Grid",
         "href": "https://chakra-ui.com/grid",
-        "description": ""
+        "description": "A primitive useful for grid layouts. Grid is <code>Box</code> with <code>display: grid</code> and comes with helpful style shorthand. It renders a <code>div</code> element."
     },
     "Heading": {
         "name": "Heading",
@@ -167,7 +167,7 @@
     "PseudoBox": {
         "name": "PseudoBox",
         "href": "https://chakra-ui.com/pseudobox",
-        "description": "null"
+        "description": "This component is inspired by <a href='https://tailwindcss.com/docs/pseudo-class-variants'>Tailwind CSS</a> Pseudo-Class variants and <a href='https://github.com/tkh44/glamorous-pseudo/'>Glamorous Pseudo</a>. <br /><br />PseudoBox composes <a href='https://chakra-ui.com/box'>Box</a> component and provides props to style common CSS pseudo selectors."
     },
     "Radio": {
         "name": "Radio",

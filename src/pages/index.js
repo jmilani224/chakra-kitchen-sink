@@ -8,7 +8,6 @@ import Interactive from '../components/categories/interactive/interactive.js'
 import Layout from '../components/categories/layout/layout.js'
 import { Box } from '@chakra-ui/core'
 
-
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     {
@@ -262,20 +261,20 @@ const IndexPage = () => {
     }
   `)
   const dataProp = data.dataJson
+
   return (
-            <Box px="8">
-              <Nav />
+              <Box px="8">
+                <Nav />
 
-              <Main />
+                <Main />
 
-              <Inputs data={dataProp} id="inputs" />
+                <Inputs data={dataProp} id="inputs" />
 
-              <Interactive data={dataProp} id="interactive" />
+                <Interactive data={dataProp} id="interactive" />
 
-              <Layout data={dataProp} id="layout" />
-              
-            </Box>
-            
+                <Layout data={dataProp} id="layout" />
+                
+              </Box>
           )        
 }
 

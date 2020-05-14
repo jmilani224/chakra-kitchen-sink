@@ -20,7 +20,7 @@
 		"scope": "javascript,typescript",
 		"prefix": "chakra",
 		"body": [
-			"const ${1:ComponentDemo} = ({ data }) => {",
+			"export const ${1:ComponentDemo} = ({ data }) => {",
 				"\treturn (",
 					"\t\t<ConsolidatedPopover",
 					"\t\tname={data.${2:Component}.name}",
