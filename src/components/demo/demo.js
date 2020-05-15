@@ -97,6 +97,20 @@ import {
     StatLabel,
     StatNumber,
     StatHelpText,
+    Avatar,
+    Badge,
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    CircularProgress,
+    Image,
+    Progress,
+    Skeleton,
+    Spinner,
+    Tag,
+    TagIcon,
+    TagLabel,
+    TagCloseButton 
 } from '@chakra-ui/core'
 
 export const ButtonDemo = ({ data }) => {
@@ -891,5 +905,170 @@ export const TextDemo = ({ data }) => {
     )
 }
 
+export const AvatarDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Avatar.name}
+        href={data.Avatar.href}
+        description={data.Avatar.description}
+        >
+            <Stack isInline>
+                <Avatar name="Dan Abrahmov" src="https://bit.ly/dan-abramov" />
+                <Avatar name="Kola Tioluwani" src="https://bit.ly/tioluwani-kolawole" />
+                <Avatar name="Kent Dodds" src="https://bit.ly/kent-c-dodds" />
+                <Avatar name="Ryan Florence" src="https://bit.ly/ryan-florence" />
+                <Avatar name="Prosper Otemuyiwa" src="https://bit.ly/prosper-baba" />
+                <Avatar name="Christian Nwamba" src="https://bit.ly/code-beast" />
+                <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
+            </Stack>
+        </ConsolidatedPopover>
+    )
+}
+
+export const BadgeDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Badge.name}
+        href={data.Badge.href}
+        description={data.Badge.description}
+        >
+            <Badge>Badge</Badge>
+        </ConsolidatedPopover>
+    )
+}
+
+export const BreadcrumbDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Breadcrumb.name}
+        href={data.Breadcrumb.href}
+        description={data.Breadcrumb.description}
+        >
+            <Breadcrumb>
+                <BreadcrumbItem>
+                    <BreadcrumbLink href="#">Home</BreadcrumbLink>
+                </BreadcrumbItem>
+
+                <BreadcrumbItem>
+                    <BreadcrumbLink href="#">Docs</BreadcrumbLink>
+                </BreadcrumbItem>
+
+                <BreadcrumbItem isCurrentPage>
+                    <BreadcrumbLink href="#">Breadcrumb</BreadcrumbLink>
+                </BreadcrumbItem>
+            </Breadcrumb>
+        </ConsolidatedPopover>
+    )
+}
+
+export const CircularProgressDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.CircularProgress.name}
+        href={data.CircularProgress.href}
+        description={data.CircularProgress.description}
+        >
+            <CircularProgress value={80} />
+        </ConsolidatedPopover>
+    )
+}
+
+export const IconDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Icon.name}
+        href={data.Icon.href}
+        description={data.Icon.description}
+        >
+            <Stack isInline>
+                {/* Default size is 1em => 16px */}
+                <Icon name="phone" />
+
+                {/* Use the `size` prop to change the icon size */}
+                <Icon name="check-circle" size="24px" />
+
+                {/* Use the `color` prop to change the icon color */}
+                <Icon name="warning" size="32px" color="red.500" />
+            </Stack>
+        </ConsolidatedPopover>
+    )
+}
+
+export const ImageDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Image.name}
+        href={data.Image.href}
+        description={data.Image.description}
+        >
+            <Box size="sm">
+                <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" />
+            </Box>
+        </ConsolidatedPopover>
+    )
+}
+
+export const ProgressDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Progress.name}
+        href={data.Progress.href}
+        description={data.Progress.description}
+        >
+            <Progress h={3} w={48} hasStripe isAnimated />
+        </ConsolidatedPopover>
+    )
+}
+
+export const SkeletonDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Skeleton.name}
+        href={data.Skeleton.href}
+        description={data.Skeleton.description}
+        >
+            <div>
+                <Skeleton w={48} height="20px" my="10px" />
+                <Skeleton w={48} height="20px" my="10px" />
+                <Skeleton w={48} height="20px" my="10px" />
+            </div>
+        </ConsolidatedPopover>
+    )
+}
+
+export const SpinnerDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Spinner.name}
+        href={data.Spinner.href}
+        description={data.Spinner.description}
+        >
+            <Spinner />
+        </ConsolidatedPopover>
+    )
+}
+
+export const TagDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Tag.name}
+        href={data.Tag.href}
+        description={data.Tag.description}
+        >
+            <Stack spacing={4} isInline>
+                <Tag variantColor="cyan">
+                    <TagLabel>Tag</TagLabel>
+                    <TagIcon icon="check" size="12px" />
+                </Tag>
+
+                {/* You can also use custom svg icons */}
+                <Tag variantColor="teal">
+                    <TagLabel>Tag</TagLabel>
+                    <TagIcon icon="settings" />
+                </Tag>
+            </Stack>
+        </ConsolidatedPopover>
+    )
+}
 
 //next: add text components and add to that section

@@ -9,20 +9,20 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 
 const navItems = [
     {
-        name: "Inputs",
-        a: "#inputs"
-    },
-    {
-        name: "Interactive",
-        a: "#interactive"
+        name: "Text",
+        a: "#text"
     },
     {
         name: "Layout",
         a: "#layout"
     },
     {
-        name: "Text",
-        a: "#text"
+        name: "Inputs",
+        a: "#inputs"
+    },
+    {
+        name: "Interactive",
+        a: "#interactive"
     },
     {
         name: "UI Elements",

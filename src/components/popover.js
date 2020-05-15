@@ -12,7 +12,8 @@ import {
   } from "@chakra-ui/core";
 
 const ConsolidatedPopover = ({ children, name, description, href, placement, w, minW, h, direction }) => {
-    return (
+  
+  return (
         <Popover
         trigger="hover"
         placement={placement}

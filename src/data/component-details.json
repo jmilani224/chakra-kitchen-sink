@@ -22,12 +22,12 @@
     "Avatar": {
         "name": "Avatar",
         "href": "https://chakra-ui.com/avatar",
-        "description": "null"
+        "description": "The Avatar component is used to represent user, and displays the profile picture, initials or fallback icon."
     },
     "Badge": {
         "name": "Badge",
         "href": "https://chakra-ui.com/badge",
-        "description": "null"
+        "description": "Badges are used to highlight an item's status for quick recognition."
     },
     "Box": {
         "name": "Box",
@@ -37,7 +37,7 @@
     "Breadcrumb": {
         "name": "Breadcrumb",
         "href": "https://chakra-ui.com/breadcrumb",
-        "description": ""
+        "description": "Breadcrumbs, or a breadcrumb navigation, can help to enhance how users navigate to previous page levels of a website, especially if that website has many pages or products."
     },
     "Button": {
         "name": "Button",
@@ -52,7 +52,7 @@
     "CircularProgress": {
         "name": "CircularProgress",
         "href": "https://chakra-ui.com/circularprogress",
-        "description": ""
+        "description": "Circular Progress is used to indicates the progress for determinate and indeterminate processes. <ul ><li>Determinate progress fill the circular track with color, as the indicator moves from 0 to 360 degrees.</li><li>Indeterminate progress grow and shrink the indicator while moving along the circular track.</li></ul>"
     },
     "CloseButton": {
         "name": "CloseButton",
@@ -112,7 +112,7 @@
     "Icon": {
         "name": "Icon",
         "href": "https://chakra-ui.com/icon",
-        "description": ""
+        "description": "Use the <code>&lt;Icon&gt;</code> component to easily render <code>&lt;svg&gt;</code> icons. Chakra UI provides basic interface icons, to add your icons, <a href='https://chakra-ui.com/icon#adding-custom-icons'>read the guide</a>."
     },
     "IconButton": {
         "name": "IconButton",
@@ -122,7 +122,7 @@
     "Image": {
         "name": "Image",
         "href": "https://chakra-ui.com/image",
-        "description": ""
+        "description": "The Image component is used to display images.<br /><br />Image composes <code>Box</code> so you can use all the style props and add responsive styles as well."
     },
     "Input": {
         "name": "Input",
@@ -162,7 +162,7 @@
     "Progress": {
         "name": "Progress",
         "href": "https://chakra-ui.com/progress",
-        "description": "null"
+        "description": "Progress is used to display the progress status for a task that takes a long time or consists of several steps."
     },
     "PseudoBox": {
         "name": "PseudoBox",
@@ -187,7 +187,7 @@
     "Skeleton": {
         "name": "Skeleton",
         "href": "https://chakra-ui.com/skeleton",
-        "description": "null"
+        "description": "Skeleton is used to display the loading state of some component."
     },
     "Slider": {
         "name": "Slider",
@@ -197,7 +197,7 @@
     "Spinner": {
         "name": "Spinner",
         "href": "https://chakra-ui.com/spinner",
-        "description": "null"
+        "description": "Spinners provide a visual cue that an action is processing awaiting a course of change or a result."
     },
     "Stack": {
         "name": "Stack",
@@ -222,7 +222,7 @@
     "Tag": {
         "name": "Tag",
         "href": "https://chakra-ui.com/tag",
-        "description": "null"
+        "description": "Tag component is used for items that need to be labeled, categorized, or organized using keywords that describe them."
     },
     "Text": {
         "name": "Text",
