@@ -23,7 +23,7 @@ const Main = () => {
                 as="h2"
                 size="xl"
                 pb="2"
-                color="teal.500"
+                color="gray.500"
                 textAlign="center"
                 >
                     "Kitchen Sink" Component Demo
