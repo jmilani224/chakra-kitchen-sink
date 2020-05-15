@@ -733,10 +733,8 @@ export const GridDemo = ({ data }) => {
         name={data.Grid.name}
         href={data.Grid.href}
         description={data.Grid.description}
-        m="4"
         >
-            <Grid m={4} w="40vw" templateColumns="repeat(5, 1fr)" gap={6}>
-                <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
+            <Grid w="40vw" templateColumns="repeat(5, 1fr)" gap={6}>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
@@ -779,8 +777,7 @@ export const SimpleGridDemo = ({ data }) => {
         href={data.SimpleGrid.href}
         description={data.SimpleGrid.description}
         >
-            <SimpleGrid m={4} columns={2} spacing={6}>
-                <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
+            <SimpleGrid columns={2} spacing={6}>
                 <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
                 <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
                 <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
