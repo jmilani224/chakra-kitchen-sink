@@ -62,7 +62,7 @@
     "Code": {
         "name": "Code",
         "href": "https://chakra-ui.com/code",
-        "description": ""
+        "description": "Code is a component used to display inline code. It is composed from the <a href='https://chakra-ui.com/box'>Box</a> component with a font family of <code>mono</code> for displaying code."
     },
     "Collapse": {
         "name": "Collapse",
@@ -107,7 +107,7 @@
     "Heading": {
         "name": "Heading",
         "href": "https://chakra-ui.com/heading",
-        "description": "Headings are used for rendering headlines. Heading composes Box so you can use all the style props and add responsive styles as well. It renders an <h2> tag by default."
+        "description": "Headings are used for rendering headlines. Heading composes <code>Box</code> so you can use all the style props and add responsive styles as well. It renders an <code>&lth2&gt</code> tag by default."
     },
     "Icon": {
         "name": "Icon",
@@ -137,7 +137,7 @@
     "List": {
         "name": "List",
         "href": "https://chakra-ui.com/list",
-        "description": "null"
+        "description": "List is used to display list items, it renders a <Code>&ltul&gt</Code> by default."
     },
     "Menu": {
         "name": "Menu",
@@ -182,7 +182,7 @@
     "SimpleGrid": {
         "name": "SimpleGrid",
         "href": "https://chakra-ui.com/simplegrid",
-        "description": "null"
+        "description": "If you're like me, I tend to always check the <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout'>MDN docs</a> for anything CSS grid.</p>"
     },
     "Skeleton": {
         "name": "Skeleton",
@@ -202,12 +202,12 @@
     "Stack": {
         "name": "Stack",
         "href": "https://chakra-ui.com/stack",
-        "description": "null"
+        "description": "Stack is a layout utility component that makes it easy to stack elements together and apply a space between them. It composes the <a href='https://chakra-ui.com/flex'>Flex</a> component."
     },
     "Stat": {
         "name": "Stat",
         "href": "https://chakra-ui.com/stat",
-        "description": "null"
+        "description": "As the name implies, the Stat component is used to display some statistics."
     },
     "Switch": {
         "name": "Switch",
@@ -227,7 +227,7 @@
     "Text": {
         "name": "Text",
         "href": "https://chakra-ui.com/text",
-        "description": "Text is the used to render text and paragraphs within an interface. It renders a <p> tag by default."
+        "description": "Text is the used to render text and paragraphs within an interface. It renders a <code>&lt;p&gt;</code> tag by default."
     },
     "Textarea": {
         "name": "Textarea",

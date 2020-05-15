@@ -7,10 +7,13 @@ import {
     DividerDemo,
     FlexDemo,
     GridDemo,
-    PseudoBoxDemo
+    PseudoBoxDemo,
+    SimpleGridDemo,
+    StackDemo
 } from '../../demo/demo.js'
 
  const Layout = ({ data }) => {
+    
     return (
         <Category name="Layout" id="layout">
             
@@ -18,14 +21,18 @@ import {
 
             <AspectRatioBoxDemo data={data}/>
 
-            <DividerDemo data={data}/>
-
             <FlexDemo data={data}/>
 
             <GridDemo data={data}/>
 
-            <PseudoBoxDemo data={data}/>
+            <SimpleGridDemo data={data}/>
+
+            <DividerDemo data={data}/>
             
+            <PseudoBoxDemo data={data}/>
+
+            <StackDemo data={data}/>
+
         </Category>
     )
 }

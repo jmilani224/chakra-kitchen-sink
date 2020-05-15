@@ -86,7 +86,17 @@ import {
     Text,
     Divider,
     Grid,
-    PseudoBox
+    PseudoBox,
+    SimpleGrid,
+    Stack,
+    Heading,
+    Code,
+    List,
+    ListItem,
+    Stat,
+    StatLabel,
+    StatNumber,
+    StatHelpText,
 } from '@chakra-ui/core'
 
 export const ButtonDemo = ({ data }) => {
@@ -629,6 +639,7 @@ export const TooltipDemo = ({ data }) => {
 }
 
 export const AspectRatioBoxDemo = ({ data }) => {
+
     return (
         <ConsolidatedPopover
         name={data.AspectRatioBox.name}
@@ -636,9 +647,10 @@ export const AspectRatioBoxDemo = ({ data }) => {
         description={data.AspectRatioBox.description}
         >
             <AspectRatioBox
-                minHeight="300px"
-                minWidth="400px"
+                h="300px"
+                w="400px"
                 ratio={4 / 3}>
+                
                 <Flex
                     h="300px"
                     w="400px"
@@ -652,7 +664,8 @@ export const AspectRatioBoxDemo = ({ data }) => {
                     >
                         4 : 3
                     </Text>
-                    </Flex>
+                </Flex>
+
             </AspectRatioBox>
         </ConsolidatedPopover>
     )
@@ -722,7 +735,7 @@ export const GridDemo = ({ data }) => {
         description={data.Grid.description}
         m="4"
         >
-            <Grid w="40vw" templateColumns="repeat(5, 1fr)" gap={6}>
+            <Grid m={4} w="40vw" templateColumns="repeat(5, 1fr)" gap={6}>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
@@ -759,5 +772,127 @@ export const PseudoBoxDemo = ({ data }) => {
     )
 }
 
+export const SimpleGridDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.SimpleGrid.name}
+        href={data.SimpleGrid.href}
+        description={data.SimpleGrid.description}
+        >
+            <SimpleGrid m={4} columns={2} spacing={6}>
+                <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
+                <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
+                <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
+                <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
+                <Box bg="tomato" height="80px" color="white" p="3">SimpleGrid</Box>
+            </SimpleGrid>
+        </ConsolidatedPopover>
+    )
+}
 
-//next: add layout components and add to that section
+function Feature({ title, desc, ...rest }) {
+    return (
+      <Box p={5} shadow="md" borderWidth="1px" {...rest}>
+        <Heading fontSize="xl">{title}</Heading>
+        <Text mt={4}>{desc}</Text>
+      </Box>
+    );
+  }
+
+export const StackDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Stack.name}
+        href={data.Stack.href}
+        description={data.Stack.description}
+        >
+            <Stack spacing={8}>
+                <Feature
+                    title="Stack"
+                    desc="The future can be even brighter but a goal without a plan is just a wish"
+                />
+                <Feature
+                    title="Stack"
+                    desc="You deserve good things. With a whooping 10-15% interest rate per annum, grow your savings on your own terms with our completely automated process"
+                />
+            </Stack>
+        </ConsolidatedPopover>
+    )
+}
+
+export const CodeDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Code.name}
+        href={data.Code.href}
+        description={data.Code.description}
+        >
+            <Code>Code Code Code Code</Code>
+        </ConsolidatedPopover>
+    )
+}
+
+export const HeadingDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Heading.name}
+        href={data.Heading.href}
+        description={data.Heading.description}
+        >
+            <Heading>Heading Heading</Heading>
+        </ConsolidatedPopover>
+    )
+}
+
+export const ListDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.List.name}
+        href={data.List.href}
+        description={data.List.description}
+        >
+            <List styleType="disc">
+                <ListItem>List</ListItem>
+                <ListItem>List List</ListItem>
+                <ListItem>List List List</ListItem>
+                <ListItem>List List List List</ListItem>
+            </List>
+        </ConsolidatedPopover>
+    )
+}
+
+export const StatDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Stat.name}
+        href={data.Stat.href}
+        description={data.Stat.description}
+        >
+            <Stat>
+                <StatLabel>Stat</StatLabel>
+                <StatNumber>£0.00</StatNumber>
+                <StatHelpText>Feb 12 - Feb 28</StatHelpText>
+            </Stat>
+        </ConsolidatedPopover>
+    )
+}
+
+export const TextDemo = ({ data }) => {
+    return (
+        <ConsolidatedPopover
+        name={data.Text.name}
+        href={data.Text.href}
+        description={data.Text.description}
+        >
+            <Stack spacing={3}>
+                <Text fontSize="lg">Text</Text>
+                <Text fontSize="md">Text</Text>
+                <Text fontSize="sm">Text</Text>
+                <Text fontSize="xs">Text</Text>
+            </Stack>
+        </ConsolidatedPopover>
+    )
+}
+
+
+//next: add text components and add to that section
