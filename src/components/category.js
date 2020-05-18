@@ -7,9 +7,11 @@ const Category = ({ children, name, id }) => {
         <>
         <Box mt="8">
             <Heading
-             color="gray.800"
+             color="white"
+             backgroundColor="teal.500"
              size="xl"
-             my="2"
+             my={2}
+             py={6}
              textAlign="center"
              id={id}
             >
@@ -24,7 +26,7 @@ const Category = ({ children, name, id }) => {
             </Flex>
         </Box>
 
-        <Divider my="6"/>
+        
         </>
     )
 }

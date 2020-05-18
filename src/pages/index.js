@@ -265,7 +265,7 @@ const IndexPage = () => {
   const dataProp = data.dataJson
 
   return (
-              <Box px="8">
+              <Box>
                 <Nav />
 
                 <Main />
