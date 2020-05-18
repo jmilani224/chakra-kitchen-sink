@@ -109,8 +109,7 @@ import {
     Spinner,
     Tag,
     TagIcon,
-    TagLabel,
-    TagCloseButton 
+    TagLabel
 } from '@chakra-ui/core'
 
 export const ButtonDemo = ({ data }) => {
@@ -748,7 +747,7 @@ export const GridDemo = ({ data }) => {
         href={data.Grid.href}
         description={data.Grid.description}
         >
-            <Grid w="40vw" templateColumns="repeat(5, 1fr)" gap={6}>
+            <Grid  templateColumns="repeat(2, 1fr)" gap={6}>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
                 <Box w="100%" p="10" bg="blue.500" color="white">Grid</Box>
@@ -1070,5 +1069,3 @@ export const TagDemo = ({ data }) => {
         </ConsolidatedPopover>
     )
 }
-
-//next: add text components and add to that section

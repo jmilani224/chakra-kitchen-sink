@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Heading, Divider, Flex } from '@chakra-ui/core'
+import { Box, Heading, Flex } from '@chakra-ui/core'
 
 const Category = ({ children, name, id }) => {
     console.log(children)
