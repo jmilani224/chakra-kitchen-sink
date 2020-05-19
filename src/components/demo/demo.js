@@ -382,7 +382,7 @@ export const AlertDemo = ({ data }) => {
             <Alert status="error">
                 <AlertIcon />
                     <AlertTitle mr={2}>Alert!</AlertTitle>
-                    <AlertDescription>Something has happened.</AlertDescription>
+                    <AlertDescription mr={6}>Something has happened.</AlertDescription>
                     <CloseButton position="absolute" right="8px" top="8px" />
                 </Alert>
         </ConsolidatedPopover>
